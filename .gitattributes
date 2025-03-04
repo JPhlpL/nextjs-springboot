@@ -1,0 +1,9 @@
+# Mark all files in the static directory as vendored
+static/* linguist-vendored
+
+# Specify that certain file types should be treated as a specific language
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.java linguist-language=Java
